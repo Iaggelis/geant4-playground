@@ -1,0 +1,6 @@
+/run/initialize
+/vis/open OGLSQt
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/run/beamOn 10
